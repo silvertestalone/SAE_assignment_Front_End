@@ -1,0 +1,186 @@
+*{margin:0px; padding:0px; font-family:"Oxygen-Regular", sans-serif; box-sizing: border-box;}
+@font-face {font-family:PT Sans; src:url("../fonts/PT_Sans-Web-Regular.ttf");}
+@font-face {font-family:Oxygen-Regular; src:url("../fonts/Oxygen-Regular.ttf");}
+body{height: 100%; margin: 0;}
+#header {width:100%; height:110px; background-color:#252932;}
+.headerBorder{border-bottom:8px solid #88be4c;}
+#logo, #nav, #shopping-cart {float:left;}
+#logo, #nav, #shopping-cart, .login{height:80px;}
+#logo {width:16.5%; margin:10px 0 0 5%;}
+#nav {width:58.5%; margin-top:10px;}
+#logoImg {width:100%; margin-top:10px;}
+#nav ul {width:90%; height:30px; list-style-type:none; margin:35px auto; text-align:center;}
+#nav ul li {display:inline-block; width:24%; height:100%; text-align:center;}
+#nav ul li a {display:block; text-decoration:none; text-transform:uppercase; color:#FFFFFF; margin-top:6px; font-size:14px;}
+#nav ul li a:hover,#shopping-cart i:hover,.login a:hover,.title a:hover {color:#C9C9C9;}
+#shopping-cart {width:10%; height:80px; margin-top:10px;}
+#shopping-cart i {float:right; font-size:34px; margin:30px 4% 0 0; color:#FFFFFF;}
+.login {width:5%; float:right; margin:10px 5% 0 0; color:#FFFFFF; padding:40px 0 0 20px;}
+.login a {text-decoration:none; color:#FFFFFF;}
+#main {width:100%;}
+#mainWrapper {width:85%; height:600px; margin:40px auto; overflow-y:scroll;}
+#mainWrapper::-webkit-scrollbar {width: 12px;}
+#mainWrapper::-webkit-scrollbar-track {box-shadow: inset 0 0 5px grey; border-radius: 7px;}
+#mainWrapper::-webkit-scrollbar-thumb {background: #252932; border-radius: 10px;}
+#mainWrapper::-webkit-scrollbar-thumb:hover {background: #88be4c;}
+.card {width:28%; height:560px; background-color:#E7E7E7; display:inline-block; margin:15px 2.33% 10px 2.33%; border-radius:7px;}
+.cardImg img {width:100%; border-radius:7px 7px 0 0;}
+.date, .title {width:100%; height:22px; margin-top:2px; padding-left:15px;}
+.date {color:#ed6663; font-size:14px;}
+.title a{font-size:20px; text-decoration:none; color:#252932;}
+.textContent {width:100%; height:49%; overflow:hidden; padding:20px 15px 0 15px;}
+.textContent p {font-size:16px;}
+.textContent p:hover, #najnovije:hover {cursor:pointer;}
+
+/* SVG */
+#wrapper {position:absolute; float:right; top:150px; left:50%; transform:translate(-50%,-50%); width:10%;}
+path{stroke:#fff; fill:#fff; stroke-dasharray:1800; opacity:10; animation:animate 3s cubic-bezier(0,0.23,1,.1);}
+@keyframes animate{
+	0%{opacity:0; fill:none; stroke-dashoffset:1800;}
+	30%{opacity:10; fill:none; stroke-dashoffset:1800;}
+	90%{fill:rgba(0,0,0,0);}
+	100%{opacity:10; fill:rgba(0,0,0,1); stroke-dashoffset:0;}
+}
+/* SVG */
+
+/* Dzoni */
+#slika{background:url("../images/formaSlika.jpg"); height:auto; background-position:center; background-repeat:no-repeat; background-size:cover;}
+#formaLevo{background-color:rgba(0, 0, 0, 0.5); float:left; margin-top:3%; margin-left:5%; height:580px; width:40%; text-align:center;margin-bottom:3%;}
+#formaDesno{background-color:rgba(0, 0, 0, 0.5); float:right; margin-top:3%; margin-right:5%; height:auto; width:40%; text-align:center;}
+#forma{text-align:center;}
+#forma2{text-align:center;}
+#th{font-size:20px;}
+#thh{font-size:20px; padding-bottom:10px;}
+#table{margin:0 auto; width:60%; margin-top:5%; margin-bottom:10%; color:white;}
+#table2{margin:0 auto; width:60%; margin-top:5%; margin-bottom:10%; color:white;}
+input[type=text] {width:100%; padding:5px 20px; margin:8px 0; display:inline-block; border:1px solid #ccc;}
+input[type=password] {width:100%; padding:5px 20px; margin:8px 0; display:inline-block; border:1px solid #ccc;}
+input[type=button]{background-color:#DC143C; border-radius:5px; width:100px; height:35px; color:white; border:1px solid #DC143C;}
+input[type=checkbox]{-ms-transform:scale(1.5); /* IE */ -moz-transform:scale(1.5); /* FF */ -webkit-transform:scale(1.5); /* Safari and Chrome */ -o-transform:scale(1.5);}
+#accept{padding-top:10px;}
+#button{padding-top:40px; text-align:center;}
+#singed{text-align: center;}
+#tekst{margin:0 auto; width:800px; height:auto; margin-top:40px; color:white; background-color:#252932; font-family:'Cookie', cursive;}
+#join{background-color:#252932; text-align:center; height:auto; width:auto;}
+#sredinaTekst{background-color:#252932; margin:0 auto; height:500px; width:35%; border:1px solid black;}
+#hr{margin:50px 80px;}
+.klase{margin:0 auto; color:white; font-family:'Cookie', cursive; height:auto; width:250px; text-align:left;}
+.slika{float:left; width:10%;}
+.p{float:right; width:80%;}
+#slika img{padding-left:10px;}
+/* 22ss */
+
+
+/* asdasas */
+*{box-sizing:border-box;padding:0;margin:0 auto;}
+.divider{height:5px;width:100%;background:#ed6663; clear:both;}
+#footer-main{width:100%;height:100px;background:#252932;}
+.footer-main-margin{margin-top:40px;}
+#footer-main-left{width:22%;height:100%;float:left;}
+#footer-main-middle{margin-top:10px;width:56%;height:100%;float:left;}
+#footer-main-right{width:22%;height:100%;float:right;}
+#footer-download{width:50%;height:50px;margin-top:25px;border-radius:5px;background:white;}
+#footer-download>img{height:100%;width:50%;float:left;border-radius:5px;}
+#download{color:black;font-size:10px;width:50%;height:100%;text-align:left;float:right;padding-top:10px;overflow:hidden;}
+#footer-main-middle{height:100%;text-align:center;padding-top:5px}
+.footer-main-middle-top{width:100%;height:40px;}
+.social{display:inline-block;width:20%;height:100%;margin:-2px;}
+.social:nth-child(1){background:#3b5998;border-top-left-radius:5px;border-bottom-left-radius:5px;}
+.social:nth-child(2){background:#00aced}
+.social:nth-child(3){background:#c4302b}
+.social:nth-child(4){background:#0e76a8}
+.social:nth-child(5){background:#dd4b39;border-top-right-radius:5px;border-bottom-right-radius:5px;}
+.social>img{width:100%;height:100%;}
+.footer-main-middle-top>ul{list-style-type:none;padding-top:15px;}
+.footer-main-middle-top>ul>li{display:inline;margin-right:20px;}
+.footer-main-middle-top>ul>li:last-child{display:inline;margin-right:0;}
+.footer-main-middle-top>ul>li>a{text-decoration:none;color:white;}
+.footer-main-middle-top>ul>li>a:hover{color:grey;}
+#footer-google{width:50%;background:#ed6663;;height:80%;border-bottom-left-radius:5px;border-bottom-right-radius:5px;}
+.footer-google-img{width:100%;height:100%;}
+.footer-google-img>img{width:100%;height:100%;}
+/*gallery*/
+#okvir{width:100%;height:600px;}
+#main{width:80%;height:100%;;padding-top:50px;}
+#main-right{width:80%; height:auto;overflow-x:scroll;}
+#main-right::-webkit-scrollbar {width: 10px;}
+#main-right::-webkit-scrollbar-track {box-shadow: inset 0 0 5px grey; border-radius: 7px;}
+#main-right::-webkit-scrollbar-thumb {background: #252932; border-radius: 10px;}
+#main-right::-webkit-scrollbar-thumb:hover {background: #88be4c;}
+#main-right-title{text-align:center;height:10%;padding-top:15px;}
+#lightbox-gallery{width:100%;height:90%;background:grey;}
+/*lightbox*/
+#row{display:flex;white-space:nowrap;}
+#row>.column{padding:0;}
+#row:after{content:"";display:table;}
+.column{float:left;width:25%;flex: 0 0 auto;}
+.column1{width:8.33%;}
+/* The Modal (background) */
+.modal{display:none;position:fixed;z-index:1;padding-top:100px;left:0;top:0;width:100%;height:100%;overflow:auto;background-color:black;}
+/* Modal Content */
+.modal-content{position:relative;background-color:#fefefe;margin:auto;padding:0;width:50%;max-width:1200px;border:2px solid white;}
+/* The Close Button */
+.close{color:white;position:absolute;top:10px;right:25px;font-size:35px;font-weight:bold;}
+.close:hover,.close:focus{color:#999;text-decoration:none;cursor:pointer;}
+.mySlides{display:none;}
+.cursor{cursor:pointer}
+/* Next & previous buttons */
+.prev,
+.next{cursor: pointer;position: absolute;top: 50%;width: auto;padding: 16px;margin-top:-50px;color:white;font-weight:bold;font-size:20px;transition:0.6s ease;border-radius:0 3px 3px 0; user-select:none;-webkit-user-select:none;}
+/* Position the "next button" to the right */
+.next{right:0;border-radius:3px 0 0 3px;}
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover,
+.next:hover{background-color:rgba(0, 0, 0, 0.8);}
+/* Number text (1/3 etc) */
+.numbertext{color:#f2f2f2;font-size:12px;padding:8px 12px;position:absolute;top:0;}
+img{margin-bottom:-4px;}
+.caption-container{text-align:center;background-color:black;padding:2px 16px;color:white;}
+.demo{opacity: 0.6;}
+.active,
+.demo:hover{opacity:1;}
+img.hover-shadow{transition:0.3s}
+.hover-shadow:hover{box-shadow:0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)}
+/* index */
+#okvirIndex{width:100%;height:1000px;}
+#okvir-bg{height:700px;width:100%;margin:0 auto;background:url('../images/background-images55.jpg') no-repeat;background-size:cover;}
+/*gornji deo*/
+#okvir-top{height:130px;width:100%;}
+#okvir-top-tekst{height:70%;width:100%;text-align:center;padding-top:10px;}
+#okvir-top-span{width:40%;height:auto;color:white;}
+#okvir-top-dugme{width:100%;height:20%;text-align:center;}
+#okvir-top-input{width:auto;height:auto;}
+#dugme{width:100px;height:30px;}
+/*glavni deo*/
+#okvir-main{width:33.33%;height:570px;background:#252932}
+#okvir-main-content{width:90%;height:570px;border-top:2px solid white;border-bottom:2px solid white;}
+.content-class{height:142px;width:80%;}
+.content-fa{padding-top:20px;width:10%;height:142px;float:left;color:#ed6663;font-size:20px;}
+.content-text{font-size:13px;color:white;padding-top:20px;width:90%;height:142px;float:right;}
+/*donji deo indexa*/
+#okvir-bot{width:100%;height:300px;text-align:center;}
+.okvir-bot-part{width:33.33%;float:left;height:300px;}
+.okvir-bot-part:nth-child(2){width:33.33%;float:left;height:300px;background:#252932;}
+.okvir-bot-part:nth-child(1){border-top:5px solid #ed6663;}
+.okvir-bot-part:nth-child(3){border-top:5px solid #ed6663;}
+.part-content{width:75%;height:75%;margin-top:7%;}
+.part-content>span{padding-bottom:14px;color:white;}
+.part-mid{width:100%;height:97%;margin-top:15px;border:2px solid #fff;border-radius:5px;}
+.part-mid-slika{width:50%;height:50%;display:inline-block;float:left;}
+.part-mid img{width:100%;height:100%;}
+/*dole desno*/
+#content-desno{width:80%;height:100%;}
+#slika1{width:100%;height:80%;}
+#slika1 img{width:100%;height:100%;}
+#tekst1{width:100%;height:20%;}
+/*logo slider*/
+#mali-logo{width:100%;height:50px;text-align:center;margin-bottom:15px;}
+/*slider levo*/
+#slider-quotes{width:100%;height:70%;}
+#quote{height:70%;width:100%;}
+#quote p:nth-child(2){margin-top:12px;text-align:left;}
+#dots{height:30%;width:100%;}
+.fa-circle{margin-top: 20px;color:#ed6663;margin-left:12px;}
+.active{color:#c7ecee;}
+.fa-circle:hover{color:#c7ecee};
+/* Anketa */

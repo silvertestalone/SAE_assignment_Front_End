@@ -1,0 +1,154 @@
+<html>
+<head>
+  <!-- meta -->
+  <meta charset="UTF-8">
+  <meta name="description" content="goseed blog"/>
+  <meta name="keywords" content="goseed blog"/>
+  <meta name="author" content=""/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <!-- meta -->
+  <title>Go Seed Login</title>
+  <!-- style -->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.10/css/all.css" integrity="sha384-+d0P83n9kaQMCwj8F4RJB66tzIwOKmrdb46+porD/OvrJ+37WqIM7UoBtwHO6Nlg" crossorigin="anonymous">
+  <link rel="stylesheet" type="text/css" href="css/style.css"/>
+  <link rel="icon" type="image/ico" href="images/"/>
+  <!-- style -->
+  </head>
+    <body>
+	<header id="header">
+    <div id="logo">
+      <a href="#"><img id="logoImg" src="images/logo.png" alt="GSlogo"/></a>
+    </div>
+    <nav id="nav">
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="gallery.html">Gallery</a></li>
+        <li><a href="blog.html">Blog</a></li>
+      </ul>
+    </nav>
+    <div id="shopping-cart"><a href="#"><i class="fas fa-shopping-cart"></i></a></div>
+    <span class="login"><a href="#">Login</a></span>
+  </header>
+
+        <div id="slika">
+            <div id="formaLevo">
+            <form id="forma">
+                <table id="table">
+                    <tr>
+                        <th colspan="2" id="th">New to GoSeed?</th>
+                    </tr>
+                    <tr>
+                        <td colspan="2">Username</td>
+                    </tr>
+                    <tr>
+                        <td colspan="2"><input type="text" id="username" onblur="UserName()" name="Username"></td>
+                    </tr>
+
+                    <tr>
+                        <td colspan="2">Password</td>
+                    </tr>
+                    <tr>
+                        <td colspan="2"><input type="text" id="password" onblur="PassworD()" name="password"></td>
+                    </tr>
+
+                    <tr>
+                        <td colspan="2">Confirm password</td>
+                    </tr>
+                    <tr>
+                        <td colspan="2"><input type="password" onblur="ConfirmPassworD()" id="confirmPassword"></td>
+                    </tr>
+
+                     <tr>
+                        <td colspan="2">Country</td>
+                    </tr>
+                    <tr>
+                        <td colspan="2"><input type="text" onblur="CountrY()" id="country"></td>
+                    </tr>
+
+                     <tr>
+                        <td colspan="2">City</td>
+                    </tr>
+                    <tr>
+                        <td colspan="2"><input type="text" onblur="CitY()" id="city"></td>
+                    </tr>
+
+                    <tr>
+                        <td colspan="2" id="accept">Accept Terms </br>and Conditions <input type="checkbox" id="accept" ></td>
+                    </tr>
+
+                    <tr >
+                        <td colspan="2" id="button"><input onclick="Provera()" type="button" class="btn" value="Input Button"></td>
+                    </tr>
+
+                </table>
+            </form>
+            </div>
+            <div id="formaDesno">
+                <form id="forma2">
+                    <table id="table2">
+                        <tr>
+                            <th colspan="2" id="thh">You already have account?</th>
+                        </tr>
+
+                        <tr>
+                            <td colspan="2">Username</td>
+                        </tr>
+                        <tr>
+                            <td colspan="2"><input type="text" onblur="USERNAME1()" id="username1"></td>
+                        </tr>
+
+                        <tr>
+                            <td colspan="2">Password</td>
+                        </tr>
+                        <tr>
+                            <td colspan="2"><input type="password" onblur="PASSWORD1()" id="password1"></td>
+                        </tr>
+
+                        <tr>
+                            <td ><input onclick="provera2()" type="button" value="Log In"/></td>
+                            <td id="singed">Stay singed in  <input  type="checkbox" name="singed" ></td>
+                        </tr>
+                    </table>
+                </form>
+            </div>
+			<div class="divider footer-main-margin"></div>
+		<footer id="footer-main">
+			<div id="footer-main-left">
+				<div id="footer-download">
+					<img src="images/download button.png" alt="downloadbtn">
+					<span id="download">Download this application</span>
+				</div>
+			</div>
+			<div id="footer-main-middle">
+				<div class="footer-main-middle-top">
+					<div class="social"><i class="fab fa-facebook-f" style="color:white;margin-top:10px;"></i></div>
+					<div class="social"><i class="fab fa-twitter" style="color:white;margin-top:10px;"></i></div>
+					<div class="social"><i class="fab fa-youtube" style="color:white;margin-top:10px;width:16px;"></i></div>
+					<div class="social"><i class="fab fa-linkedin-in" style="color:white;margin-top:10px;"></i></div>
+					<div class="social"><i class="fab fa-google-plus-g" style="color:white;margin-top:10px;"></i></div>
+				</div>
+				<div class="footer-main-middle-top">
+					<ul>
+						<li><a href="index.html">Home</a></li>
+						<li><a href="gallery.html">Gallery</a></li>
+						<li><a href="blog.html">Blog</a></li>
+						<li><a href="login.html">Login</a></li>
+					</ul>
+				</div>
+			</div>
+			<div id="footer-main-right">
+				<div id="footer-google">
+					<div class="footer-google-img">
+						<img src="images/appstorebadges.png" alt="">
+					</div>
+				</div>
+			</div>
+		</footer>
+        </div>
+
+		<script type="text/javascript" src="js/jquery-3.3.1.min.js"></script>
+		<script type="text/javascript" src="js/ajax.js"></script>
+		<script type="text/javascript" src="js/script.js"></script>
+		</body>
+
+</html>
